@@ -1,0 +1,1 @@
+select upper(titre) as "titre", date_fin_affiche from film order by date_fin_affiche DESC;

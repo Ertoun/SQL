@@ -1,0 +1,2 @@
+select titre, date_debut_affiche as "date_debut", distrib_id, nom as "nom_distrib" 
+from film JOIN distrib on film.distrib_id = distrib.id WHERE titre like '%day%' and distrib_id is not null order by date_debut_affiche desc;

@@ -1,0 +1,1 @@
+select count(titre) as "nombre_films" from film where titre like 'B%';

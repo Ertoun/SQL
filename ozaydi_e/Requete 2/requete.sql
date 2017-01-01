@@ -1,0 +1,1 @@
+SELECT titre as "titre_film", duree_min as "duree_film", resum as "resume_film" from film;

@@ -1,0 +1,1 @@
+select sha1(titre) as "Titres_SHA1", md5(titre) as "Titres_MD5" from film;
